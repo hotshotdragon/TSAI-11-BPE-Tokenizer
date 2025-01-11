@@ -135,8 +135,8 @@ def create_interface(tokenizer: HindiTokenizer) -> gr.Blocks:
 
 def main():
     tokenizer = HindiTokenizer(
-        merges_path="tsai_hindi_bpe_tokens.json",
-        vocab_path="tsai_hindi_vocab.pkl"
+        merges_path="model_files/tsai_hindi_bpe_tokens.json",
+        vocab_path="model_files/tsai_hindi_vocab.pkl"
     )
     demo = create_interface(tokenizer)
     demo.launch(share=True)

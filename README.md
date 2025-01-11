@@ -5,8 +5,9 @@ Byte Pair Encoding (BPE) for token representation.
 
 ### Key Metrics
 - **Original Token Length**: 49,513
-- **BPE IDs Length**: 4,955
-- **Compression Ratio**: 9.99X
+- **BPE IDs Length**: 5,803
+- **Compression Ratio**: 8.53X
+
 
 ## Explanation
 Byte Pair Encoding is a subword tokenization technique used to compress text data while preserving meaningful token representations. The compression ratio indicates the effectiveness of the encoding process by comparing the size of the original tokens with the resulting BPE IDs
@@ -20,4 +21,4 @@ Byte Pair Encoding is a subword tokenization technique used to compress text dat
 [BytePairEncoderDecoder](https://huggingface.co/spaces/hotshotdragon/BytePairEncoderDecoder)
 
 ## Conclusion
-The 9.99X compression ratio demonstrates the efficiency of BPE in reducing token representation size while maintaining meaningful content.
+The 8.53X compression ratio demonstrates the efficiency of BPE in reducing token representation size while maintaining meaningful content.
